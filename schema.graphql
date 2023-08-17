@@ -3,3 +3,8 @@ type Balance @entity {
   block: BigInt!
   amount: BigInt!
 }
+
+type InitialData @entity {
+  id: Bytes!
+  data: String!
+}

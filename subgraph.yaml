@@ -24,4 +24,7 @@ dataSources:
           filter:
             kind: polling
             every: 10
+        - handler: handleOnce
+          filter:
+            kind: once
       file: ./src/contract.ts
